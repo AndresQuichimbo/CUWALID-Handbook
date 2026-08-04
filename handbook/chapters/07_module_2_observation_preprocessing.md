@@ -201,5 +201,4 @@ interpretability of calibration outcomes.
 ## Further Reading
 
 - CUWALID tutorials repository: https://github.com/AndresQuichimbo/CUWALID-tutorials
-- DRYP repository: https://github.com/AndresQuichimbo/DRYP
 - Chapter 8 for model preprocessing and calibration continuation.

@@ -52,7 +52,6 @@ Canonical installation links:
 
 - CUWALID package repository URL: https://github.com/AndresQuichimbo/CUWALID
 - CUWALID tutorials repository URL: https://github.com/AndresQuichimbo/CUWALID-tutorials
-- DRYP repository URL: https://github.com/AndresQuichimbo/DRYP
 
 ## Scientific Concepts
 
@@ -166,7 +165,7 @@ pip install -e .[notebooks,dev]
 
 ```bash
 pip install jupyterlab ipykernel
-python -m ipykernel install --user --name cuwalid311 --display-name "Python (cuwalid311)"
+python -m ipykernel install --user --name cwld --display-name "Python (cwld)"
 ```
 
 ### 6. Verify installation

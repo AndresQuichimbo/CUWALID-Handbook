@@ -73,13 +73,6 @@ evolve in future commits.
 - `input_template/` template inputs for user runs
 - `README.md` quick-start narrative
 
-### DRYP
-
-- `components/` model components
-- `test/` test materials
-- `run_*.py` run scripts for model execution
-- `README.md` model overview and citation context
-
 ## Scientific Concepts
 
 This chapter is organizational, but organization quality has direct scientific impact.
@@ -107,7 +100,6 @@ flowchart TD
 ```bash
 git clone https://github.com/AndresQuichimbo/CUWALID.git
 git clone https://github.com/AndresQuichimbo/CUWALID-tutorials.git
-git clone https://github.com/AndresQuichimbo/DRYP.git
 ```
 
 Recommended local structure:
@@ -116,7 +108,6 @@ Recommended local structure:
 workspace/
 	CUWALID/
 	CUWALID-tutorials/
-	DRYP/
 	CUWALID-Handbook/
 ```
 
@@ -125,7 +116,6 @@ workspace/
 ```bash
 git -C CUWALID rev-parse --short HEAD
 git -C CUWALID-tutorials rev-parse --short HEAD
-git -C DRYP rev-parse --short HEAD
 ```
 
 Record these hashes in your run notes to make results reproducible.
@@ -142,8 +132,7 @@ For each repository, identify:
 ### 4. Start practical execution from the tutorials repository
 
 Use `CUWALID-tutorials` as the operational entry point for new users.
-Use `CUWALID` and `DRYP` as implementation and reference layers when deeper inspection
-is required.
+Use `CUWALID` as implementation and reference layers when deeper inspection is required.
 
 ### 5. Keep outputs and source separated
 
@@ -201,14 +190,11 @@ Avoid skipping ahead unless dependencies are already verified.
 
 ## Summary
 
-This chapter provides a production-grade orientation to the DRYP/CUWALID repository
-ecosystem. By mapping canonical repositories, folder responsibilities, and execution
-entry points up front, users reduce setup ambiguity and make module outcomes easier
+This chapter provides a production-grade orientation to the CUWALID repository ecosystem. By mapping canonical repositories, folder responsibilities, and execution entry points up front, users reduce setup ambiguity and make module outcomes easier
 to reproduce, validate, and troubleshoot.
 
 ## Further Reading
 
 - CUWALID repository: https://github.com/AndresQuichimbo/CUWALID
 - CUWALID tutorials repository: https://github.com/AndresQuichimbo/CUWALID-tutorials
-- DRYP repository: https://github.com/AndresQuichimbo/DRYP
 - Chapter 6 for Module 1 dataset workflows.
