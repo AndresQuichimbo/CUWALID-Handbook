@@ -1,0 +1,4 @@
+figure_id,chapter,file_name,caption,status
+fig_01,02,fig_01_dryp_architecture.svg,DRYP model architecture,planned
+fig_02,03,fig_02_cuwalid_workflow.svg,CUWALID seasonal workflow,planned
+fig_03,05,fig_03_repository_structure.svg,Repository folder structure,planned
