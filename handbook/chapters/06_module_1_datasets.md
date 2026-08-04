@@ -66,10 +66,8 @@ Input datasets control both physical realism and numerical behavior.
 
 - Physiographic datasets (DEM, drainage features, water-body layers) define terrain-driven
 	flow organization and boundary assumptions.
-- Climate forcing datasets define temporal signal structure for runoff generation,
-	infiltration opportunity, and evaporative demand.
-- Parameter grids and static descriptors encode spatial heterogeneity that can strongly
-	affect calibration behavior and transferability.
+- Climate forcing datasets define the atmospheric inputs/outputs of the system.
+- Static parameters encode spatial heterogeneity that can strongly affect the behavior of the model.
 
 Three scientific quality principles apply at this stage:
 
