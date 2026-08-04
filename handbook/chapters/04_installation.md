@@ -118,8 +118,8 @@ python --version
 Alternative option B: conda
 
 ```bash
-conda create -n cuwalid311 python=3.11 -y
-conda activate cuwalid311
+conda create -n cwld python=3.11.4 -y
+conda activate cwld
 python --version
 ```
 

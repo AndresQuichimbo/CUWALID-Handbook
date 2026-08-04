@@ -1,4 +1,4 @@
-# Chapter 1 - Welcome to DRYP/CUWALID
+# Chapter 1 - Welcome to CUWALID-DRYP
 
 ## Learning Objectives
 
@@ -9,7 +9,7 @@
 
 ## Background
 
-The DRYP/CUWALID Handbook is designed as an official technical reference for hydrological
+The CUWALID-DRYP Handbook is designed as an official technical reference for hydrological
 modelling and seasonal water forecasting in dryland environments. It is not a workshop
 handout and not a collection of notebook notes. Instead, it is a structured, versioned,
 and reusable guide that explains scientific concepts, implementation workflows, validation
@@ -25,7 +25,7 @@ adapt it to their own operational or research context.
 | Component | Version | Notes |
 |---|---|---|
 | Python | 3.11 | Required baseline for this handbook version |
-| CUWALID | 1.x | Target compatibility family |
+| CUWALID | 1.0 | Target compatibility family |
 | DRYP | 2.x | Target compatibility family |
 | Git | Latest stable | Recommended for tracking handbook and workflow changes |
 
