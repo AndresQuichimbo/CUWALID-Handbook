@@ -27,7 +27,7 @@ directory assumptions.
 | Component | Version | Notes |
 |---|---|---|
 | Git | latest stable | Required for cloning and version pinning |
-| Python | 3.11 | Required for notebook and script execution |
+| Python | 3.11.4 | Required for notebook and script execution |
 | JupyterLab | latest stable | Recommended for notebook workflows |
 
 ## Required Data
