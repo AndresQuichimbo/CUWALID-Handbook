@@ -2,9 +2,9 @@
 
 ## Learning Objectives
 
-- Understand the role of each official DRYP/CUWALID repository.
+- Understand the role of the official CUWALID-Tutorials repository.
 - Locate tutorial notebooks, package code, configuration assets, and outputs efficiently.
-- Distinguish editable source content from generated artifacts.
+- Distinguish editable source content from generated datasets.
 - Apply a reproducible repository navigation pattern before running workflows.
 
 ## Background
@@ -14,11 +14,10 @@ not scientific modelling mistakes. Users often run notebooks from the wrong work
 directory, edit generated outputs instead of source files, or mix files from different
 repositories.
 
-This chapter defines a single navigation model for the three canonical repositories:
+This chapter defines a single navigation model for the canonical repositories:
 
-- CUWALID package repository: https://github.com/AndresQuichimbo/CUWALID
+- CUWALID package repository: https://github.com/AndresQuichimbo/CUWALID (optional).
 - CUWALID tutorials repository: https://github.com/AndresQuichimbo/CUWALID-tutorials
-- DRYP model repository: https://github.com/AndresQuichimbo/DRYP
 
 Use this chapter before Module 1 to ensure all users and teams share the same
 directory assumptions.
