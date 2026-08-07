@@ -1,6 +1,6 @@
-# DRYP/CUWALID Handbook Project
+# CUWALID-DRYP Handbook Project
 
-This repository contains the source for the official DRYP/CUWALID Handbook.
+This repository contains the source for the official CUWALID-DRYP Handbook.
 
 ## Purpose
 

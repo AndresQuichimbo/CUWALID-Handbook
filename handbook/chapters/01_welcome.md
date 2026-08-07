@@ -53,7 +53,7 @@ This handbook is written for:
 - Researchers building basin-scale dryland hydrology workflows.
 - Government agencies and forecasting centers operating seasonal water outlooks.
 - NGOs and practitioners applying hydrological scenarios for planning.
-- Developers and analysts extending DRYP/CUWALID pipelines.
+- Developers and analysts extending CUWALID-DRYP pipelines.
 
 The handbook assumes familiarity with command-line basics and scientific Python workflows,
 but it does not assume prior DRYP or CUWALID experience.

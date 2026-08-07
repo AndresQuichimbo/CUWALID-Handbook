@@ -1,4 +1,4 @@
-# DRYP/CUWALID Handbook
+# CUWALID-DRYP Handbook
 
 ## Subtitle
 
@@ -21,7 +21,7 @@ Each chapter is authored in its own file under `chapters/`.
 
 ### Part I - Introduction
 
-1. [Chapter 1 - Welcome to DRYP/CUWALID](chapters/01_welcome.md)
+1. [Chapter 1 - Welcome to CUWALID-DRYP](chapters/01_welcome.md)
 2. [Chapter 2 - Understanding DRYP](chapters/02_understanding_dryp.md)
 3. [Chapter 3 - Understanding CUWALID](chapters/03_understanding_cuwalid.md)
 

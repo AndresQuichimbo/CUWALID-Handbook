@@ -9,7 +9,7 @@
 
 ## Background
 
-Module 1 creates the data foundation for the entire DRYP/CUWALID pipeline. This stage
+Module 1 creates the data foundation for the entire CUWALID-DRYP pipeline. This stage
 is where most downstream reproducibility issues begin: inconsistent projections,
 incomplete temporal coverage, mixed file naming conventions, and path-level confusion.
 
@@ -58,16 +58,15 @@ Canonical repositories for this module:
 
 - https://github.com/AndresQuichimbo/CUWALID-tutorials
 - https://github.com/AndresQuichimbo/CUWALID
-- https://github.com/AndresQuichimbo/DRYP
 
 ## Scientific Concepts
 
-Input datasets control both physical realism and numerical behavior.
+Static parameters and forcing data are the main inputs of the model.
 
-- Physiographic datasets (DEM, drainage features, water-body layers) define terrain-driven
-	flow organization and boundary assumptions.
 - Climate forcing datasets define the atmospheric inputs/outputs of the system.
-- Static parameters encode spatial heterogeneity that can strongly affect the behavior of the model.
+- Static parameters encode spatial heterogeneity that can strongly affect the behavior of the model. These include the physiographic datasets (DEM, drainage features, water-body layers) that define terrain-driven
+	flow organization and boundary assumptions.
+
 
 Three scientific quality principles apply at this stage:
 
@@ -93,7 +92,7 @@ flowchart TD
 
 - Verify Chapter 4 environment is active.
 - Verify repository structure described in Chapter 5.
-- Record commit hashes for CUWALID-tutorials, CUWALID, and DRYP.
+- Record commit hashes for CUWALID-tutorials and CUWALID.
 
 ### 2. Execute the dataset download workflow
 
@@ -108,7 +107,6 @@ Production guidance:
 
 - Replace hard-coded absolute paths with project-root relative paths where possible.
 - Store data source references in a local manifest file.
-- Avoid editing downloaded raw files directly.
 
 ### 3. Standardize climate forcing structure
 
@@ -125,7 +123,7 @@ Production guidance:
 ### 4. Align spatial references and extents
 
 - Confirm each raster and vector source uses the intended project CRS.
-- Reproject before clipping or resampling to avoid silent misalignment.
+- Reproject before clipping or resampling to avoid misalignment.
 - Keep interpolation/reprojection decisions documented in the run manifest.
 
 ### 5. Build a module data manifest
@@ -181,7 +179,7 @@ input unless a new versioned data-preparation run is performed.
 
 ## Summary
 
-Module 1 establishes a reproducible, validated dataset baseline for the DRYP/CUWALID
+Module 1 establishes a reproducible, validated dataset baseline for the CUWALID-DRYP
 workflow. By grounding acquisition and preprocessing in concrete notebook pathways and
 by enforcing manifest-driven traceability, this module reduces hidden data errors and
 stabilizes all downstream modelling and forecasting steps.

@@ -1,6 +1,6 @@
 # CUWALID Handbook
 
-This repository hosts the source files for the official DRYP/CUWALID handbook.
+This repository hosts the source files for the official CUWALID-DRYP handbook.
 
 Start here:
 

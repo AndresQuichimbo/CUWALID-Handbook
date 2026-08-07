@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-- Install a clean Python 3.11 environment for DRYP/CUWALID workflows.
+- Install a clean Python 3.11 environment for CUWALID-DRYP workflows.
 - Choose between pip-based and source-based installation paths.
 - Verify package imports, dependency health, and runtime readiness.
 - Resolve common installation failures on Windows, Linux, and macOS.
