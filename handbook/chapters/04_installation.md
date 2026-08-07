@@ -214,8 +214,7 @@ Then install CUWALID in the same environment.
 - [ ] `python --version` reports 3.11.x inside the active environment.
 - [ ] `pip --version` points to the active environment path.
 - [ ] `import cuwalid` executes without exceptions.
-- [ ] `import dryp` executes without exceptions (when distributed separately).
-- [ ] Jupyter kernel `Python (cuwalid311)` appears in kernel selection.
+- [ ] Jupyter kernel `Python (cwld)` appears in kernel selection.
 - [ ] `requirements-lock.txt` was generated and saved.
 - [ ] Optional production baseline `handbook/metadata/constraints-py311.txt` is applied when strict reproducibility is needed.
 
